@@ -1,0 +1,6 @@
+*.root
+.*~
+NOT
+ROOT
+os
+~

@@ -14,10 +14,29 @@ makerHistos_pt1_pt2_all.sh
 
 Then, you can make the plots
 
-python plotter.py
+./plotter.py
 
-and organize them in directories on your web space
+and organize them in directories on your web space:
 
-source organizer.sh
+./organizer.sh
+
+
+# Good Practice
+
+#! /usr/bin/python
+chmod +x script.py
+
+#! /bin/bash
+chmod +x script.sh
+
+At this point you specified which intepreter must be used, then, type just:
+
+./script.py
+
+./script.sh
+
+no need to type "python script.py or source script.sh"
+
+
 
 
