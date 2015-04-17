@@ -6,6 +6,8 @@
 
 ./miniAOD_Z_pt1_pt2_plotter.py -n 12 -c leading/random
 
+./miniAOD_Z_pt1_pt2_plotter.py --test (only 100 entries for quick tests)
+
 This will produce root histograms
 
 If you want to loop over all the root files, just type:
