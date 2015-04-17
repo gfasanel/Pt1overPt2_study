@@ -1,0 +1,4 @@
+#! /bin/bash
+./plotter.py #default is 1 => Leading
+./plotter.py -c random
+./organizer.sh
